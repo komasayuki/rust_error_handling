@@ -1,0 +1,11 @@
+[package]
+name = "rust_error_handling"
+version = "0.1.0"
+edition = "2021"
+authors = ["komasayuki<komasayuki@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.69"
+tokio = { version = "1.26.0", features = ["full"] }
+thiserror = "1.0.38"
